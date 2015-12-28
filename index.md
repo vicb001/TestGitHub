@@ -19,6 +19,12 @@ Links
 1. [The Basics of Git and GitHub - July 2013](https://www.youtube.com/watch?v=U8GBXvdmHT4)
 1. [Pandoc User Guide](http://pandoc.org/README.html)
 
+Local Links
+-----
+
+1. <readme.html>
+1. <2016W.html>
+
 ---
 
 Pandoc
