@@ -22,12 +22,12 @@ Links
 Local Links
 -----
 
-1. <readme.html>
-1. <2016W.html>
+1. [readme.html](./readme.html)
+1. [2016W.html](./2016W.html)
 
 ---
 
 Pandoc
 ------
 
-    pandoc index.md -c styles.css -o index.html
+    pandoc index.md -s -t html5 -c styles.css -o index.html

@@ -1,22 +1,25 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Style-Type" content="text/css" />
-  <meta name="generator" content="pandoc" />
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   <title></title>
   <style type="text/css">code{white-space: pre;}</style>
-  <link rel="stylesheet" href="styles.css" type="text/css" />
+  <link rel="stylesheet" href="styles.css">
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
 </head>
 <body>
 <h1 id="testgithub">TestGitHub</h1>
 <h2 id="web-page-setup">Web page setup</h2>
-<ol style="list-style-type: decimal">
+<ol type="1">
 <li>Head over to GitHub and create a new repository named username.github.io, where username is your username (or organization name) on GitHub. vicb001.github.io</li>
 </ol>
 <hr />
 <h2 id="links">Links</h2>
-<ol style="list-style-type: decimal">
+<ol type="1">
 <li><a href="https://github.com/">GitHub.com</a></li>
 <li><a href="https://pages.github.com/">GitHub Pages</a></li>
 <li><a href="https://help.github.com/categories/github-pages-basics/">GitHub Help</a></li>
@@ -27,12 +30,12 @@
 <li><a href="http://pandoc.org/README.html">Pandoc User Guide</a></li>
 </ol>
 <h2 id="local-links">Local Links</h2>
-<ol style="list-style-type: decimal">
-<li><readme.html></li>
-<li>&lt;2016W.html&gt;</li>
+<ol type="1">
+<li><a href="./readme.html">readme.html</a></li>
+<li><a href="./2016W.html">2016W.html</a></li>
 </ol>
 <hr />
 <h2 id="pandoc">Pandoc</h2>
-<pre><code>pandoc index.md -c styles.css -o index.html</code></pre>
+<pre><code>pandoc index.md -s -t html5 -c styles.css -o index.html</code></pre>
 </body>
 </html>
